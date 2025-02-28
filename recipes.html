@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/Icon.png" type="image/png"> 
+    <title>Recipes - Recipe Vault</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Recipe Vault</div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="recipes.html" class="nav-link active">Recipes</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="recipes-page">
+        <div class="search-filters-container">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search recipes...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="filters-row">
+                <select id="categoryFilter" class="filter-select">
+                    <option value="">All Categories</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="dessert">Dessert</option>
+                </select>
+
+                <select id="cuisineFilter" class="filter-select">
+                    <option value="">All Cuisines</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Asian">Asian</option>
+                    <option value="Mexican">Mexican</option>
+                    <option value="Mediterranean">Mediterranean</option>
+                    <option value="American">American</option>
+                </select>
+
+                <select id="timeFilter" class="filter-select">
+                    <option value="">Preparation Time</option>
+                    <option value="quick">30 mins</option>
+                    <option value="medium">30-60 mins</option>
+                    <option value="long">60 mins and above</option>
+                </select>
+            </div>
+        </div>
+
+        <section class="recipes-container">
+            <div class="recipes-grid" id="recipesGrid">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Recipe Vault</h3>
+                    <p>Your Digital Cookbook</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html#about">About</a>
+                    <a href="recipes.html">Recipes</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/johnlloydjustiniane13" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                          </a>
+                        <a href="https://www.instagram.com/jljstnn/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/johnlloyd-justiniane-b936a4344/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 Recipe Vault | Johnlloyd Justiniane. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/recipes.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html> 
