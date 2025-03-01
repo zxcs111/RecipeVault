@@ -538,7 +538,7 @@ nav {
 
 @media (max-width: 1024px) {
     .recipe-title {
-        font-size: 1.1rem; /* Slightly smaller for tablets */
+        font-size: 0.9rem; /* Slightly smaller for tablets */
     }
 
     .recipe-description {
@@ -694,7 +694,7 @@ footer {
     }
 
     .about-text p {
-        font-size: 1rem; 
+        font-size: 0.7rem; 
     }
 
     .feature {
@@ -706,10 +706,10 @@ footer {
     }
 
     .feature h3 {
-        font-size: 1.1rem; 
+        font-size: 0.9rem; 
     }
 
     .feature p {
-        font-size: 0.9rem; 
+        font-size: 0.7rem; 
     }    
 }
