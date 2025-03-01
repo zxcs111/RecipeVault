@@ -538,11 +538,11 @@ nav {
 
 @media (max-width: 1024px) {
     .recipe-title {
-        font-size: 0.9rem; /* Slightly smaller for tablets */
+        font-size: 0.8rem; /* Slightly smaller for tablets */
     }
 
     .recipe-description {
-        font-size: 0.85rem; /* Slightly smaller for tablets */
+        font-size: 0.6rem; /* Slightly smaller for tablets */
         -webkit-line-clamp: 2; /* Limit to 2 lines */
     }
 }
