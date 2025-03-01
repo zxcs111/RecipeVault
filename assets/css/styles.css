@@ -538,12 +538,38 @@ nav {
 
 @media (max-width: 1024px) {
     .recipe-title {
-        font-size: 0.8rem; /* Slightly smaller for tablets */
+        font-size: 0.rem; /* Slightly smaller for tablets */
     }
 
     .recipe-description {
         font-size: 0.6rem; /* Slightly smaller for tablets */
         -webkit-line-clamp: 2; /* Limit to 2 lines */
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr; /* Single column layout for tablets */
+        gap: 1.5rem;
+    }
+
+    .footer-section {
+        text-align: left; /* Align text to the left for better readability */
+    }
+
+    .footer-section h3 {
+        font-size: 1.3rem; /* Slightly smaller heading */
+    }
+
+    .footer-section p,
+    .footer-section a {
+        font-size: 0.85rem; /* Slightly smaller text */
+    }
+
+    .social-links {
+        justify-content: flex-start; /* Align social links to the left */
+    }
+
+    .copyright {
+        font-size: 0.85rem; /* Slightly smaller copyright text */
     }
 }
 
